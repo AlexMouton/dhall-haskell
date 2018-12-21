@@ -31,6 +31,7 @@ in
           shared_8_6_1.dhall-bash
           shared_8_6_1.dhall-json
           shared_8_6_1.dhall-text
+          shared_8_6_1.dhall-python
 
           # However, we still use GHC 8.4.3 to build the distributed tarballs
           # due to a bug in GHC 8.6.1.  See:
@@ -40,6 +41,7 @@ in
           shared.tarball-dhall-bash
           shared.tarball-dhall-json
           shared.tarball-dhall-text
+          shared.tarball-dhall-python
 
           shared_ghcjs.tarball-try-dhall
 
@@ -59,5 +61,6 @@ in
       tarball-dhall-bash
       tarball-dhall-json
       tarball-dhall-text
+      tarball-dhall-python
     ;
   }

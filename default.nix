@@ -7,7 +7,7 @@ let
     import ./nix/shared.nix { compiler = "ghcjs"; system = "x86_64-linux"; };
 
 in
-  { inherit (shared) dhall dhall-bash dhall-json dhall-text;
+  { inherit (shared) dhall dhall-bash dhall-json dhall-text dhall-python;
 
     inherit (shared_ghcjs) dhall-try;
 
